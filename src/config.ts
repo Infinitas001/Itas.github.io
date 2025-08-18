@@ -11,11 +11,11 @@ import { LinkPreset } from "./types/config";
 import { getTranslateLanguageFromConfig } from "./utils/language-utils";
 
 // Define site language
-const SITE_LANG = "en"; // Language code, e.g., 'en', 'zh_CN', 'ja', etc.
+const SITE_LANG = "zh_CN"; // Language code, e.g., 'en', 'zh_CN', 'ja', etc.
 
 export const siteConfig: SiteConfig = {
 	title: "Mizuki",
-	subtitle: "One demo website",
+	subtitle: "My blog evergarden",
 
 	lang: SITE_LANG,
 
@@ -38,22 +38,28 @@ export const siteConfig: SiteConfig = {
 		// Support single image or image array, carousel is automatically enabled when array length > 1
 		src: {
 			desktop: [
-				"assets/desktop-banner/1.webp",
-				"assets/desktop-banner/2.webp",
-				"assets/desktop-banner/3.webp",
-				"assets/desktop-banner/4.webp",
-				"assets/desktop-banner/5.webp",
-				"assets/desktop-banner/6.webp",
-				"assets/desktop-banner/7.webp",
+				//"assets/desktop-banner/1.webp",
+				//"assets/desktop-banner/2.webp",
+				//"assets/desktop-banner/3.webp",
+				//"assets/desktop-banner/4.webp",
+				//"assets/desktop-banner/5.webp",
+				//"assets/desktop-banner/6.webp",
+				//"assets/desktop-banner/7.webp",
+				"assets/desktop-banner/8.webp",
+				"assets/desktop-banner/9.webp",
+				"assets/desktop-banner/10.webp",
 			], // Desktop banner images
 			mobile: [
-				"assets/mobile-banner/1.webp",
-				"assets/mobile-banner/2.webp",
-				"assets/mobile-banner/3.webp",
-				"assets/mobile-banner/4.webp",
-				"assets/mobile-banner/5.webp",
-				"assets/mobile-banner/6.webp",
-				"assets/mobile-banner/7.webp",
+				//"assets/desktop-banner/1.webp",
+				//"assets/desktop-banner/2.webp",
+				//"assets/desktop-banner/3.webp",
+				//"assets/desktop-banner/4.webp",
+				//"assets/desktop-banner/5.webp",
+				//"assets/desktop-banner/6.webp",
+				//"assets/desktop-banner/7.webp",
+				"assets/desktop-banner/8.webp",
+				"assets/desktop-banner/9.webp",
+				"assets/desktop-banner/10.webp",
 			], // Mobile banner images
 		}, // Use local banner images
 
@@ -62,25 +68,25 @@ export const siteConfig: SiteConfig = {
 		carousel: {
 			enable: true, // When true: enable carousel for multiple images. When false: randomly display one image from the array
 
-			interval: 1, // Carousel interval time (seconds)
+			interval: 2, // Carousel interval time (seconds)
 		},
 
 		homeText: {
 			enable: true, // Display custom text on homepage
-			title: "Mizuki", // Homepage banner main title
+			title: "Itas", // Homepage banner main title
 
 			subtitle: [
-				"One demo website",
-				"Carousel Text1",
-				"Carousel Text2",
-				"Carousel Text3",
+				"八月是京阿尼的月份",
+				"快去看小城日常",
+				"漫无止境啊漫无止境",
+				"要不要再去看一遍凉宫春日？",
 			], // Homepage banner subtitle, supports multiple texts
 			typewriter: {
 				enable: true, // Enable subtitle typewriter effect
 
-				speed: 100, // Typing speed (milliseconds)
+				speed: 100, // Typing speed (100 milliseconds default)
 				deleteSpeed: 50, // Delete speed (milliseconds)
-				pauseTime: 2000, // Pause time after complete display (milliseconds)
+				pauseTime: 3000, // Pause time after complete display (milliseconds)
 			},
 		},
 
@@ -123,24 +129,24 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.jpg", // Relative to /src directory. If starts with '/', relative to /public directory
-	name: "Mizuki",
-	bio: "This is a description",
+	avatar: "assets/images/kawai.png", // Relative to /src directory. If starts with '/', relative to /public directory
+	name: "Itas_P (in August)",
+	bio: "喵喵喵喵喵",
 	links: [
 		{
 			name: "Bilibli",
 			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
+			url: "https://space.bilibili.com/1830500719?spm_id_from=333.1007.0.0",
 		},
 		{
-			name: "Gitee",
-			icon: "mdi:git",
+			name: "X",
+			icon: "fa6-brands:x-twitter",
 			url: "https://gitee.com/matsuzakayuki",
 		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
+			url: "https://github.com/Infinitas001",
 		},
 	],
 };
