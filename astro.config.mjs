@@ -25,9 +25,9 @@ import { remarkExcerpt } from "./src/plugins/remark-excerpt.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 // https://astro.build/config
 export default defineConfig({
-	site: "https://infinitas001.github.io",
+	site: "https://infinitas001.github.io/",
 
-	base: "Itas.github.io",
+	base: "/Itas.github.io/",
 	trailingSlash: "always",
 	integrations: [
 		tailwind({
