@@ -27,7 +27,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 export default defineConfig({
 	site: "https://infinitas001.github.io/",
 
-	base: "/",
+	base: "Itas.github.io/",
 	trailingSlash: "always",
 	integrations: [
 		tailwind({
@@ -53,7 +53,7 @@ export default defineConfig({
 				"fa6-brands": ["*"],
 				"fa6-regular": ["*"],
 				"fa6-solid": ["*"],
-				"mdi": ["*"],
+				mdi: ["*"],
 			},
 		}),
 		expressiveCode({
