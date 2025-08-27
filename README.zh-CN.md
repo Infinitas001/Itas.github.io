@@ -212,6 +212,15 @@ Mizuki 支持超越标准 GitHub Flavored Markdown 的增强功能：
 | `pnpm new-post <文件名>`   | 创建新博客文章                         |
 | `pnpm astro ...`           | 运行 Astro CLI 命令                    |
 
+上传到github指令：
+
+git add .  把所有的变化添加到缓存中
+
+git commmit -m "xxx"  提交备注
+
+git push origin main 缓存上传到服务器的main节点
+
+
 ## 🎯 配置指南
 
 ### 🔧 基础配置
