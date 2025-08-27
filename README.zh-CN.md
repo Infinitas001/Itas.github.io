@@ -218,7 +218,7 @@ git add .  把所有的变化添加到缓存中
 
 git commmit -m "xxx"  提交备注
 
-git push origin main 缓存上传到服务器的main节点
+git push origin main 缓存上传到服务器的main文件（实际结构为origin/main）
 
 
 ## 🎯 配置指南
