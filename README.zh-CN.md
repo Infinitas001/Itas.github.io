@@ -216,7 +216,7 @@ Mizuki 支持超越标准 GitHub Flavored Markdown 的增强功能：
 
 git add .  把所有的变化添加到缓存中
 
-git commmit -m "xxx"  提交备注
+git commit -m "xxx"  提交备注
 
 git push origin main 缓存上传到服务器的main文件（实际结构为origin/main）
 
