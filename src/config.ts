@@ -14,8 +14,8 @@ import { getTranslateLanguageFromConfig } from "./utils/language-utils";
 const SITE_LANG = "zh_CN"; // Language code, e.g., 'en', 'zh_CN', 'ja', etc.
 
 export const siteConfig: SiteConfig = {
-	title: "Mizuki",
-	subtitle: "My blog evergarden",
+	title: "Itas",
+	subtitle: "",
 
 	lang: SITE_LANG,
 
@@ -121,7 +121,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Diary,
 		{
 			name: "GitHub",
-			url: "https://github.com/matsuzaka-yuki", // Internal links should not include base path as it will be automatically added
+			url: "https://github.com/Infinitas001", // Internal links should not include base path as it will be automatically added
 
 			external: true, // Show external link icon and open in new tab
 		},
@@ -173,7 +173,7 @@ export const commentConfig: CommentConfig = {
 export const announcementConfig: AnnouncementConfig = {
 	enable: true, // Enable announcement feature
 	title: "Announcement", // Announcement title
-	content: "Welcome to my blog! This is a sample announcement.", // Announcement content
+	content: "My blog evergarden.", // Announcement content
 	closable: true, // Allow users to close the announcement
 	link: {
 		enable: true, // Show link button
