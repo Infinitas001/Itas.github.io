@@ -86,7 +86,7 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "Beautiful Mizuki!", // 主页横幅主标题
+			title: "ItasP の Evergarden", // 主页横幅主标题
 
 			subtitle: [
 				"A Showcase Demo Site",
@@ -250,8 +250,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "Mizuki",
-	bio: "The world is big, you have to go and see",
+	name: "Mizuki", // 昵称
+	bio: "The world is big, you have to go and see", // 简短自我介绍
 	links: [
 		{
 			name: "Bilibli",
