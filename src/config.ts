@@ -185,22 +185,22 @@ export const navBarConfig: NavBarConfig = {
 			children: [
 				{
 					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					url: "https://github.com/Infinitas001",
 					external: true,
 					icon: "fa6-brands:github",
 				},
 				{
 					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					url: "https://space.bilibili.com/1830500719",
 					external: true,
 					icon: "fa6-brands:bilibili",
 				},
-				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
-					external: true,
-					icon: "mdi:git",
-				},
+				//{
+				//	name: "Gitee",
+				//	url: "https://gitee.com/matsuzakayuki/Mizuki",
+				//	external: true,
+				//	icon: "mdi:git",
+				//},
 			],
 		},
 		{
@@ -475,7 +475,7 @@ export const pioConfig: import("./types/config").PioConfig = {
 		home: "Click here to go back to homepage!", // 首页提示
 		skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示
 		close: "QWQ See you next time~", // 关闭提示
-		link: "https://github.com/matsuzaka-yuki/Mizuki", // 关于链接
+		link: "https://github.com/Infinitas001", // 关于链接
 	},
 };
 
