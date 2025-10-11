@@ -3,7 +3,7 @@ import I18nKey from "../i18n/i18nKey";
 import { i18n } from "../i18n/translation";
 import MainGridLayout from "../layouts/MainGridLayout.astro";
 
-// 示例即刻短文数据
+// 示例即刻短文数据，在次数组下添加更多短文对象作为新日记
 const moments = [
 	{
 		id: 1,
@@ -11,6 +11,13 @@ const moments = [
 			"The falling speed of cherry blossoms is five centimeters per second!",
 		date: "2025-01-15T10:30:00Z",
 		images: ["/images/diary/sakura.jpg", "/images/diary/1.jpg"],
+	},
+	{
+		id: 2,
+		content:
+			"The end of [CITY the ANIMATION]",
+		date: "2025-10-01T13:40:00Z",
+		images: ["/images/diary/20251001/1.png", "/images/diary/20251001/2.png","/images/diary/20251001/3.png","/images/diary/20251001/4.png"],
 	},
 ];
 
