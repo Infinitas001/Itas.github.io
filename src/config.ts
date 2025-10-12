@@ -14,7 +14,6 @@ import type {
 } from "./types/config";
 import { LinkPreset } from "./types/config";
 
-
 // 移除i18n导入以避免循环依赖
 
 // 定义站点语言
@@ -31,13 +30,12 @@ export const siteConfig: SiteConfig = {
 		fixed: false, // 对访问者隐藏主题色选择器
 	},
 
-	
 	bangumi: {
-		userId: "Cheems", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
+		userId: "itasp", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
 	},
 
 	anime: {
-		mode: "local", // 番剧页面模式："bangumi" 使用Bangumi API，"local" 使用本地配置
+		mode: "bangumi", // 番剧页面模式："bangumi" 使用Bangumi API，"local" 使用本地配置
 	},
 
 	banner: {
@@ -310,7 +308,7 @@ export const announcementConfig: AnnouncementConfig = {
 
 export const musicPlayerConfig: MusicPlayerConfig = {
 	enable: true, // 启用音乐播放器功能
-};// 具体配置在\src\components\widget\MusicPlayer.svelte组件中，可自行修改
+}; // 具体配置在\src\components\widget\MusicPlayer.svelte组件中，可自行修改
 
 export const footerConfig: FooterConfig = {
 	enable: false, // 是否启用Footer HTML注入功能
