@@ -14,6 +14,7 @@ if (!friendsPost) {
 
 const { Content } = await render(friendsPost);
 const items = [
+	//在此数组下添加其他友链
 	{
 		title: "Astro",
 		imgurl: "https://avatars.githubusercontent.com/u/44914786?s=48&v=4",
@@ -28,6 +29,31 @@ const items = [
 		desc: "Mizuki User Manual",
 		siteurl: "https://docs.mizuki.mysqil.com",
 		tags: ["Docs"],
+	},
+	//add my site
+	{
+		title: "Bangumi",
+		imgurl: "https://bgm.tv/anime/list/itasp",
+		desc: "My bangumi site",
+		siteurl: "https://bgm.tv/anime/list/itasp",
+		tags: ["Anime"],
+	},
+	{
+		title: "Girigiri Love",
+		imgurl: "https://bgm.girigirilove.com/index",
+		desc: "A streaming anime video site",
+		siteurl: "https://bgm.girigirilove.com/index",
+		tags: ["Anime"],
+	},
+
+	{
+		title: "Vercel",
+		imgurl:
+			"https://vercel.com/infinitas001s-projects/itas-github-io/3qwbzW42FKxXm4CW9YnP3jny8ox4",
+		desc: "My website host panel",
+		siteurl:
+			"https://vercel.com/infinitas001s-projects/itas-github-io/3qwbzW42FKxXm4CW9YnP3jny8ox4",
+		tags: ["Server"],
 	},
 ];
 
