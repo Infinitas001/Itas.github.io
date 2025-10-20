@@ -41,7 +41,7 @@ export const siteConfig: SiteConfig = {
 	banner: {
 		enable: true, // 是否启动Banner壁纸模式
 
-		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
+		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播，注意是来自public目录下的图片
 		src: {
 			desktop: [
 				//	"/assets/desktop-banner/d1.webp",
